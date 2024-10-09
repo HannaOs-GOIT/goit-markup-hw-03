@@ -238,6 +238,7 @@ width: 264px;
     width: calc(100 - 72)/4;
     padding-left: 0; 
     margin: 0;
+    border-radius: 0 0 4px 4px;
 }
 .card-title {
 font-weight: 500;
@@ -258,6 +259,14 @@ text-align: center;
 color: #434455;
 margin-bottom: 32px;
 }
+
+/* portfolio */
+
+.portfolio {
+padding: 120 156;
+}
+
+
 .portfolio-title {
 font-weight: 700;
 font-size: 36px;
@@ -266,7 +275,22 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin: 72px;
 }
+
+.portfolio-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    align-items: center;
+
+    
+}
+
+portfolio-box {
+    width: calc(100 - 48)/3;
+  }
 
 .project-card {
 font-weight: 500;
