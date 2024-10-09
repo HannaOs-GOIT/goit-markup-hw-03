@@ -117,7 +117,7 @@ color: #434455;
 
 .main-title {
 background-color: #2e2f42;
-padding: 188 0;
+padding: 188px 0;
 }
 .title {
 
@@ -143,10 +143,53 @@ letter-spacing: 0.04em;
 color: #fff;
 background: #4d5ae5;
 cursor: pointer;
+border-radius: 4px;
+border: none;
+margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
 }
 .title-button:hover,
 .title-button:focus {
     background: #404bbf;
+}
+
+/* principles of our work */
+
+.feature {
+padding: 120px 156px;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container-narrow {
+    width: 1158px;
+    margin: 0 8px;
+    
+}
+
+.feature-list {
+    display: flex;
+    gap: 24px;
+       }
+
+.feature-list-item {
+    width: calc(100 - 72)/4;
+    padding-left: 0; 
+    margin: 0;
 }
 .feature-title {
     font-weight: 500;
@@ -154,6 +197,7 @@ cursor: pointer;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 .feature-text
 {
@@ -162,10 +206,21 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+width: 264px;
+
 }
+/* team */
+
 
 .team {
     background: #f4f4fd;
+    padding: 120px 156px;
+}
+
+.team-card-container {
+    display: flex;
+    gap: 24px;
+
 }
 
 .team-card {
@@ -176,9 +231,13 @@ color: #434455;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 85px;
 }
 .card {
     background: #fff;
+    width: calc(100 - 72)/4;
+    padding-left: 0; 
+    margin: 0;
 }
 .card-title {
 font-weight: 500;
@@ -188,6 +247,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+padding-bottom: 8px;
 }
 
 .card-content {
@@ -196,6 +256,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 32px;
 }
 .portfolio-title {
 font-weight: 700;
