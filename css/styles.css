@@ -1,0 +1,235 @@
+/* font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
+  */
+
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background: #fff;
+  }
+/* reset */
+
+  ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+/* common */
+
+  .container {
+max-width: 1158;
+padding: 0 15;
+margin: 0 auto;
+  }
+
+  h2, h3, h4, h5, h6, p {
+margin: 0;
+  }
+
+  /* header */
+
+  .header {
+    border-bottom: 1px solid #e7e9fc;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+.header-logo {
+    padding: 24px 0;
+    margin: 76px;
+}
+
+  .header-navigation {
+    display: flex;
+    align-items: center;
+  }
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.address-list {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.header-logo .logo-part {
+    color: #2e2f42; 
+}
+
+.footer-logo .logo-part {
+    color:  #f4f4fd;
+}
+
+.navigation-link {
+    display: block;
+    padding: 24px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.navigation-link:hover,
+.navigation-link:focus, 
+.address-link:hover,
+.address-link:focus {
+
+color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.address-link {
+    display: block;
+    padding: 24px 0;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/*main-title*/
+
+.main-title {
+background-color: #2e2f42;
+padding: 188 0;
+}
+.title {
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+max-width: 496px;
+}
+
+
+.title-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5;
+cursor: pointer;
+}
+.title-button:hover,
+.title-button:focus {
+    background: #404bbf;
+}
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.feature-text
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.team {
+    background: #f4f4fd;
+}
+
+.team-card {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+.card {
+    background: #fff;
+}
+.card-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+}
+
+.card-content {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+.portfolio-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+}
+
+.project-card {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-transform: capitalize;
+}
+
+.project-card-content {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.footer {
+    background-color: #2e2f42;
+    }
+
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
