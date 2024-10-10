@@ -248,7 +248,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-padding-bottom: 8px;
 }
 
 .card-content {
@@ -257,13 +256,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-margin-bottom: 32px;
+}
+.card-container {
+padding: 32px;
+margin-bottom: 8px ;
 }
 
 /* portfolio */
 
 .portfolio {
-padding: 120 156;
+padding: 120px 156px;
 }
 
 
@@ -283,14 +285,15 @@ margin: 72px;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    align-items: center;
+    
 
     
 }
 
 portfolio-box {
     width: calc(100 - 48)/3;
-  }
+}
+
 
 .project-card {
 font-weight: 500;
@@ -308,8 +311,19 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.project-card-container {
+padding: 32px;
+padding-left: 16px;
+margin-bottom: 8px;
+}
+
+/* footer */
+
+
 .footer {
     background-color: #2e2f42;
+    padding: 100px;
+    padding-left: 156px;
     }
 
 .footer-text {
