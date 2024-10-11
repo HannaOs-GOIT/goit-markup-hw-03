@@ -181,13 +181,6 @@ padding: 120px 0;
 }
 
 
-
-.container-narrow {
-    width: 1158px;
-    margin: 0 8px;
-    
-}
-
 .feature-list {
     display: flex;
     gap: 24px;
